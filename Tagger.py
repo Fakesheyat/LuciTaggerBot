@@ -40,8 +40,8 @@ async def help(event):
   await event.reply(helptext,
                     buttons=(
                       [Button.url('Beni Gruba Ekle➕', 'https://t.me/lucitaggerbot?startgroup=a')],
-                      [Button.url('Support👨‍💻', 'https://t.me/LuciSup')],
-                      [Button.url('Resmi Kanal🔖', 'https://t.me/LuciBots')],
+                      [Button.url('Support👨‍💻', 'https://t.me/sohbet_qrupu_BT')],
+                      [Button.url('Resmi Kanal🔖', 'https://t.me/BTresmii')],
 		      [Button.url('Developer🧑‍🔧', 'https://t.me/LuciMarka')],
                     ),
                     link_preview=False
