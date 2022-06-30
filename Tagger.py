@@ -28,7 +28,7 @@ async def start(event):
                     buttons=(
                    
 		      [Button.url('Beni Gruba Ekle ➕', 'https://t.me/lucitaggerbot?startgroup=a')],
-                      [Button.url('Support🛠', 'https://t.me/LuciSup')],
+                      [Button.url('Support🛠', 'https://t.me/sohbet_qrupu_BT')],
                       [Button.url('Resmi Kanal📣', 'https://t.me/LuciBots')],
 		      [Button.url('Developer👨🏻‍💻', 'https://t.me/LuciMarka')],
                     ),
