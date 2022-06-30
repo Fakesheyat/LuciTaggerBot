@@ -42,14 +42,14 @@ async def help(event):
                       [Button.url('Beni Gruba Ekle➕', 'https://t.me/lucitaggerbot?startgroup=a')],
                       [Button.url('Support👨‍💻', 'https://t.me/sohbet_qrupu_BT')],
                       [Button.url('Resmi Kanal🔖', 'https://t.me/BTresmii')],
-		      [Button.url('Developer🧑‍🔧', 'https://t.me/LuciMarka')],
+		      [Button.url('Developer🧑‍🔧', 'https://t.me/Mamdvv')],
                     ),
                     link_preview=False
                    )
 	
 @client.on(events.NewMessage(pattern="^/reklam$"))
 async def help(event):
-  helptext = "**Çok özellikleri Etiket Botu Bulmaya Çalışan Grub Sahibleri @LuciTaggerBot Size Göre:\n\n📌 5-li etiket\n📌 Emoji etiket\n📌 Tekli Etiket\n📌 Yalnız Yöneticileri etiketleme\n📌\n\n Böyle Çok özellikli @LuciTaggerBot 'u grubunuza yönetici olarak ekleyip rahatlıkla üyelir , etiket ata bilirsiz **"
+  helptext = "**Çok özellikleri Etiket Botu Bulmaya Çalışan Grub Sahibleri @BT_TaggerBot Size Göre:\n\n📌 5-li etiket\n📌 Emoji etiket\n📌 Tekli Etiket\n📌 Yalnız Yöneticileri etiketleme\n📌\n\n Böyle Çok özellikli @LuciTaggerBot 'u grubunuza yönetici olarak ekleyip rahatlıkla üyelir , etiket ata bilirsiz **"
   await event.reply(helptext,
                     buttons=(
                       [Button.url('Botu Gruba Ekle➕', 'https://t.me/lucitaggerbot?startgroup=a')],
